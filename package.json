@@ -1,0 +1,53 @@
+{
+    "name": "nightowl-theme",
+    "displayName": "Night Owl Theme",
+    "description": "A dark not black but deep blue theme for Visual Studio Code.",
+    "version": "0.9.5",
+    "publisher": "AncientLord",
+    "author": {
+      "name": "Pranjal"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.55.1"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Night Owl Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Night Owl Theme-color-theme.json"
+            }
+        ]
+    },
+    "galleryBanner": {
+      "color": "#011627",
+      "theme": "dark"
+    },
+    "keywords": [
+      "Theme",
+      "Dark Theme",
+      "Night Owl Theme",
+      "Night Owl",
+      "Night Theme",
+      "Owl Theme",
+      "Owl",
+      "Accessible Theme",
+      "blue theme",
+      "dark mode theme",
+      "Pranjal",
+      "pranjal",
+      "ancientlord"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pran-jal/Night-Owl-Theme-VS-Code"
+    },
+    "issues": {
+      "url": "https://github.com/pran-jal/Night-Owl-Theme-VS-Code/issues"
+    },
+    "readme": "https://github.com/pran-jal/Night-Owl-Theme-VS-Code/README.md"
+  }
