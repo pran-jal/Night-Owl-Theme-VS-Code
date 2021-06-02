@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 .vscode/**
 .vscode-test/**
 .gitignore
 Fonts
 
-=======
-.vscode/**
-.vscode-test/**
-.gitignore
->>>>>>> e948c12a8b9c95fc111c1683a4e6084fb33a2054
