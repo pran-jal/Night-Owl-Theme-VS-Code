@@ -21,6 +21,7 @@
 		"breadcrumb.focusForeground": "#ffffff",
 		"breadcrumb.activeSelectionForeground": "#FFFFFF",
 		"breadcrumbPicker.background": "#001122",
+		"breadcrumb.background": "#001122",
   
 		"contrastBorder": "#122d42",
 
@@ -75,18 +76,19 @@
 		"editorGutter.addedBackground": "#9CCC65",
 		"editorGutter.deletedBackground": "#EF5350",
 		"editorWidget.background": "#021320",
-		"editorWidget.border": "#5f7e97",
-		"editorSuggestWidget.background": "#2C3043",
-		"editorSuggestWidget.border": "#2B2F40",
+		"editorWidget.border": "#219fd5",
+		"editorSuggestWidget.background": "#021320",
+		"editorSuggestWidget.border": "#219fd5",
+		"editorSuggestWidget.selectedForeground": "#78abd4",
 		"editorSuggestWidget.foreground": "#d6deeb",
-		"editorSuggestWidget.highlightForeground": "#ffffff",
-		"editorSuggestWidget.selectedBackground": "#5f7e97",
+		"editorSuggestWidget.highlightForeground": "#c576e4",
+		"editorSuggestWidget.selectedBackground": "#0e293f",
 		"editorHoverWidget.background": "#021320",
 		"editorHoverWidget.border": "#5f7e97",
 		"extensionButton.prominentForeground": "#ffffffcc",
 		"extensionButton.prominentBackground": "#7e57c2cc",
 		"extensionButton.prominentHoverBackground": "#7e57c2",
-	  
+
 		"focusBorder": "#219fd5",
 		"foreground": "#d6deeb",
   
@@ -111,6 +113,7 @@
 		"list.activeSelectionBackground": "#0e293f",
 		"list.activeSelectionForeground": "#5f7e97",
 		"list.focusOutline": "#3399ff",
+		"list.focusHighlightForeground": "#219fd5",
 		"list.invalidItemForeground": "#975f94",
 		"list.dropBackground": "#011627",
 		"list.focusBackground": "#234d708c",
@@ -153,6 +156,11 @@
 		"panelTitle.inactiveForeground": "#d6deeb80",
 		"pickerGroup.foreground": "#d1aaff",
 		"pickerGroup.border": "#011627",
+
+		"quickInput.background": "#021320",
+		"quickInput.foreground": "#d6deeb",
+		"quickInputList.focusForeground": "#219fd5",
+		
 		
 		"sash.hoverBorder": "#219fd5",
 		"sideBar.background": "#011627",
@@ -779,7 +787,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#69a017",
+				"foreground": "#90d628",
 				"fontStyle": "bold"
 			}
 		},
