@@ -2,7 +2,7 @@
     
      An eye catching dark deep blue theme for Visual Studio Code.
      
-     A theme with use of wide range of colors for syntax highlighting, make code look more readable and beautiful while being easy on eyes to reduce strain at night.
+   A theme with use of wide range of colors for syntax highlighting, make code look more readable and beautiful while being easy on eyes to reduce strain at night.
 
 
 ## C / C++
