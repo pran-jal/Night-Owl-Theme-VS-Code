@@ -249,7 +249,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#577997",
 			}
 		},
 		{
@@ -368,31 +368,6 @@
 			}
 		},
 		{
-			"name": "Comma in functions",
-			"scope": "meta.function-call.arguments.python",
-			"settings": {
-			  "foreground": "#97e0c4",
-			}
-		},
-		{
-			"name": "Comma in functions",
-			"scope": "meta.fstring.python",
-			"settings": {
-			  "foreground": "#2b76e6"
-			}
-		},
-		{
-			"name": "Function",
-			"scope": [
-
-				"meta.function-call.generic.python",
-			],
-			"settings": {
-				"foreground": "#82aaff",
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
@@ -409,7 +384,6 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function.preprocessor",
-				"constant.language.python"
 			],
 			"settings": {
 				"foreground": "#FF5874"
@@ -948,14 +922,85 @@
 				"foreground": "#EEFFFF"
 			}
 		},
+		// ----------------------------------------
+		//            LANGUAGE SPECIFIC
+		// ----------------------------------------
+		// PYTHON ----------------------------------------
 		{
-			"name": "Decorator Functions in Python",
-			"scope": "entity.name.function.decorator.python",
+			"name": "[Python] Docstring",
+			"scope": [
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.raw.multi.python",
+			],
 			"settings": {
-			  "foreground": "#a3ff86"
+				"foreground": "#577997",
+				"fontStyle": "italic",
+			}
+	  	},
+		{
+			"name": "[Python] ALL CAPS",
+			"scope": "constant.other.caps",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#F78C6C",
 			}
 		},
-	
+		{
+			"name": "[Python] Meta function",
+			"scope": "meta.function.python",
+			"settings": {
+				"foreground": "#2b76e6"
+			}
+		},
+		{ 
+			"name": "[Python] Assignment",
+			"scope": "keyword.operator.assignment.python",
+			"settings": {
+				"foreground":  "#51d6cf",
+			}
+        },
+		{
+			"name": "[Python] Comma in functions",
+			"scope": "meta.function-call.arguments.python",
+			"settings": {
+			  "foreground": "#97e0c4",
+			}
+		},
+		{
+			"name": "[Python] Fstring",
+			"scope": "meta.fstring.python",
+			"settings": {
+			  "foreground": "#2b76e6"
+			}
+		},
+		{
+			"name": "[Python] Function",
+			"scope": [
+
+				"meta.function-call.generic.python",
+			],
+			"settings": {
+				"foreground": "#82aaff",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "[Python] Constant",
+			"scope": [
+				"constant.language.python"
+			],
+			"settings": {
+				"foreground": "#FF5874"
+			}
+		},
+		{
+			"name": "[Python] Decorator Functions",
+			"scope": "entity.name.function.decorator.python",
+			"settings": {
+			  "foreground": "#a3ff86",
+			  "fontStyle": "bold",
+			}
+		},
 	],
 
 }
