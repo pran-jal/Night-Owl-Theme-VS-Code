@@ -61,8 +61,8 @@
 		"editor.hoverHighlightBackground": "#7e57c25a",
 		"editor.lineHighlightBackground": "#0003",
 		"editor.rangeHighlightBackground": "#7e57c25a",
-		"editorIndentGuide.background": "#5e81ce52",
-		"editorIndentGuide.activeBackground": "#C792EA",
+		"editorIndentGuide.background1": "#5e81ce52",
+		"editorIndentGuide.activeBackground1": "#C792EA",
 		"editorRuler.foreground": "#5e81ce52",
 		"editorCodeLens.foreground": "#5e82ceb4",
 		"editorBracketMatch.background": "#5f7e974d",
@@ -124,7 +124,7 @@
 		"list.inactiveSelectionBackground": "#010d18",
 		"list.inactiveSelectionForeground": "#3399ff",
   
-		"merge.currentHeaderBackground": "#5f7e97",
+		"merge.currentHeaderBackground": "#5f7e975a",
 		"merge.incomingHeaderBackground": "#7e57c25a",
 		"merge.border": "#061526",
 		"menu.selectionForeground": "#219fd5",
@@ -228,11 +228,11 @@
 		"terminal.ansiBrightYellow": "#fff700",
 		"terminal.selectionBackground": "#1b90dd4d",
 		"terminalCursor.background": "#234d70",
-		"textCodeBlock.background": "#549b4e",
+		"textCodeBlock.background": "#0E293F",
 		"terminal.foreground": "#89d5d8",
 
-		"welcomePage.buttonBackground": "#011627",
-		"welcomePage.buttonHoverBackground": "#011627",
+		// "welcomePage.buttonBackground": "#011627",
+		// "welcomePage.buttonHoverBackground": "#011627",
 		"walkThrough.embeddedEditorBackground": "#011627",
 		"widget.shadow": "#219fd5",
 		"window.activeBorder": "#219fd5",
@@ -245,7 +245,9 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.raw.multi.python",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -384,7 +386,6 @@
 		{
 			"name": "Function",
 			"scope": [
-
 				"meta.function-call.generic.python",
 			],
 			"settings": {
@@ -952,7 +953,23 @@
 			"name": "Decorator Functions in Python",
 			"scope": "entity.name.function.decorator.python",
 			"settings": {
-			  "foreground": "#a3ff86"
+			  "foreground": "#a3ff86",
+			  "fontStyle": "bold",
+			}
+		},
+		{
+			"name": "[Python] Assignment",
+			"scope": "keyword.operator.assignment.python",
+			"settings": {
+				"foreground": "#51d6cf",
+			}
+		},
+		{
+			"name": "[Python] ALL CAPS",
+			"scope": "constant.other.caps",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#F78C6C",
 			}
 		},
 	
